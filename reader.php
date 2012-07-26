@@ -11,6 +11,7 @@ if ($_POST && isset($_POST['email']) && isset($_POST['password']) && isset($_POS
     Zend_Loader::loadClass('Zend_Gdata_Spreadsheets');
     Zend_Loader::loadClass('Zend_Gdata_ClientLogin');
 
+
     try {  
       // connect to API
       $service = Zend_Gdata_Spreadsheets::AUTH_SERVICE_NAME;
